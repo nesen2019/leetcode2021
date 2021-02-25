@@ -30,3 +30,16 @@ def decorator_default(method_name, class_name="Solution"):
 
         return decorated
     return decorator
+
+
+def equal_list_random_no_reply(l1, l2):
+    l1 = set(l1)
+    l2 = set(l2)
+    if len(l1) != len(l2):
+        return False
+
+    for l in l1:
+        if l not in l2:
+            return False
+
+    return True

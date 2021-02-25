@@ -107,6 +107,30 @@ class HandleLink:
             node = node.next
         return self.__list
 
+    @staticmethod
+    def equal_root(root1, root2):
+        """
+        >>> r1 = HandleLink([1,3,2,4]).data_root
+        >>> r2 = HandleLink([1,3,2,4]).data_root
+        >>> HandleLink.equal_root(r1, r2)
+        True
+
+        >>> r1 = HandleLink([1,4,3]).data_root
+        >>> r2 = HandleLink([1,4,3,2]).data_root
+        >>> HandleLink.equal_root(r1, r2)
+        False
+        """
+        while root1 and root2:
+            if root1.val != root2.val:
+                return False
+            root1 = root1.next
+            root2 = root2.next
+        if root1 or root2:
+            return False
+        return True
+
+    def __repr__(self):
+        return str(self.data_list)
 
 if __name__ == '__main__':
     import doctest
