@@ -137,6 +137,8 @@ class OneClPy:
             st += "from cleetcode.structures import ListNode, HandleLink\n"
         if "TreeNode" in code_snippet:
             st += "from cleetcode.structures import TreeNode, HandleTreeTwo\n"
+        if "NestedInteger" in code_snippet:
+            st += "from typing import Any as NestedInteger\n"
 
         st += f"from cleetcode import decorator_default\n"
         return st

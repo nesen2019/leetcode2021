@@ -1,5 +1,8 @@
 import sys 
-import os 
+import os
+import re
+import glob
+from cleetcode.configs import cfg
 
 
 def load_module(file_path, module_name=None):
@@ -27,3 +30,13 @@ def load_module(file_path, module_name=None):
         import imp
         mod = imp.load_source(module_name, file_path)
         return mod
+
+
+def auto_module(path):
+    path_basename = os.path.basename(path)
+    problem_id = re.findall(r"(cL.*?)_.*.py", path_basename)[0]
+    path_list = glob.glob(os.path.join(cfg.PATH_ctasks, f"**/{problem_id}.py"))
+    assert len(path_list) == 1
+    path_module = path_list[0]
+    module = load_module(path_module)
+    return module
