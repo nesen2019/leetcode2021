@@ -1,3 +1,4 @@
+import ast
 import os
 import json
 import datetime
@@ -47,7 +48,7 @@ class OneMd:
 
             st += "\n"
             if isinstance(f, str):
-                with open(f, "w") as fw:
+                with open(f, "w", encoding="utf8") as fw:
                     fw.write(st)
             else:
                 f.write(st)
@@ -59,7 +60,7 @@ class OneMd:
         st += f"{self.md_problem_description} \n"
         st += f"{self.md_snippet_python}\n"
         if isinstance(f, str):
-            with open(f, "w") as fw:
+            with open(f, "w", encoding="utf8") as fw:
                 fw.write(st)
         else:
             f.write(st)
@@ -96,7 +97,7 @@ class OneClPy:
         self.idx = idx
         self.slug = slug
         self.data_py = ""
-        self.is_des = False if description == "description" else True
+        self.is_des = False if (description == "description" or code_snippet == "class Solution: pass\n") else True
         self.data_py += "\n\n".join([
             self.add_doc(description, code_snippet),
             self.add_import(code_snippet),
@@ -117,15 +118,15 @@ class OneClPy:
 
     def dump(self, f):
         if isinstance(f, str):
-            with open(f, "w") as fw:
+            with open(f, "w", encoding="utf8") as fw:
                 fw.write(self.data_py)
         else:
             f.write(self.data_py)
 
     def add_doc(self, description, code_snippet):
-        st = f'"""\n'
+        st = f"'''\n"
         st += f'{self.idx}.{self.slug}'
-        st += f'\n{description}\n{code_snippet}\n"""'
+        st += f"\n{description}\n{code_snippet}\n'''"
         return st
 
     def add_import(self, code_snippet):
@@ -155,6 +156,10 @@ class OneClPy:
         st = ""
         st += code_snippet.strip()
         st += f"\n        pass\n" if self.is_des else ""
+        try:
+            ast.parse(st)
+        except:
+            st = "\n"  
         return st
 
     def add_main_content(self):

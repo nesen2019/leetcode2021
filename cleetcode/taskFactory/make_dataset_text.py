@@ -140,7 +140,7 @@ class AllProb:
     def __init__(self, path=None):
         self.all_prob_list = list()
         self.middleware = None
-        path = "/root/progs/leetcode2021/cleetcode/taskFactory/problems_middleware.json" if path is None else path
+        path = os.path.join(cfg.PATH_PROJECT, "cleetcode/taskFactory/problems_middleware.json") if path is None else path
         with open(path, "r") as f:
             self.load(f)
 
@@ -203,7 +203,7 @@ class AllProb:
         """
 
         """
-        path = os.path.join(cfg.PATH_PROJECT, "cleetcode/ctasks")
+        path = cfg.PATH_ctasks
         hard = self.get_all_hard(reverse=True, exclude_path=path)
         medium = self.get_all_medium(reverse=True, exclude_path=path)
         easy = self.get_all_easy(reverse=True, exclude_path=path)
