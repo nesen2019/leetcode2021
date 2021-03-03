@@ -13,6 +13,7 @@ class LeetCode:
     def __init__(self):
         self.PATH_PROJECT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
         self.LOGINmsg = LoginMsg()
+        self.PATH_ctasks = os.path.join(self.PATH_PROJECT, "cleetcode/ctasks")
 
 
 cfg = LeetCode()

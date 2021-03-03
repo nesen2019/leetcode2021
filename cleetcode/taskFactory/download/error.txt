@@ -1,0 +1,72 @@
+/root/miniconda3/bin/python /root/progs/leetcode2021/cleetcode/taskFactory/download/download_json.py
+  2%|▏         | 31/1987 [00:51<44:44,  1.37s/it]error --- -- ->>shortest-supersequence-lcci<<error --- -- ->>shortest-supersequence-lcci<<error --- -- ->>shortest-supersequence-lcci<<
+  4%|▍         | 89/1987 [02:35<56:32,  1.79s/it]error --- -- ->>dui-lie-de-zui-da-zhi-lcof<<error --- -- ->>dui-lie-de-zui-da-zhi-lcof<<error --- -- ->>dui-lie-de-zui-da-zhi-lcof<<
+  5%|▍         | 90/1987 [02:35<42:52,  1.36s/it]error --- -- ->>hua-dong-chuang-kou-de-zui-da-zhi-lcof<<error --- -- ->>hua-dong-chuang-kou-de-zui-da-zhi-lcof<<error --- -- ->>hua-dong-chuang-kou-de-zui-da-zhi-lcof<<
+  5%|▍         | 94/1987 [02:41<48:19,  1.53s/it]error --- -- ->>zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof<<error --- -- ->>zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof<<error --- -- ->>zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof<<
+ 11%|█         | 211/1987 [06:20<57:27,  1.94s/it]error --- -- ->>sort-features-by-popularity<<error --- -- ->>sort-features-by-popularity<<error --- -- ->>sort-features-by-popularity<<
+ 11%|█         | 212/1987 [06:21<45:23,  1.53s/it]error --- -- ->>find-the-subtasks-that-did-not-execute<<error --- -- ->>find-the-subtasks-that-did-not-execute<<error --- -- ->>find-the-subtasks-that-did-not-execute<<
+ 11%|█         | 213/1987 [06:21<35:00,  1.18s/it]error --- -- ->>buildings-with-an-ocean-view<<error --- -- ->>buildings-with-an-ocean-view<<error --- -- ->>buildings-with-an-ocean-view<<
+ 11%|█         | 214/1987 [06:22<33:14,  1.12s/it]error --- -- ->>recyclable-and-low-fat-products<<error --- -- ->>recyclable-and-low-fat-products<<error --- -- ->>recyclable-and-low-fat-products<<
+ 11%|█         | 215/1987 [06:23<26:37,  1.11it/s]error --- -- ->>design-most-recently-used-queue<<error --- -- ->>design-most-recently-used-queue<<error --- -- ->>design-most-recently-used-queue<<
+ 11%|█         | 220/1987 [06:30<46:32,  1.58s/it]error --- -- ->>leetflex-banned-accounts<<error --- -- ->>leetflex-banned-accounts<<error --- -- ->>leetflex-banned-accounts<<
+ 11%|█▏        | 225/1987 [06:38<47:46,  1.63s/it]error --- -- ->>maximum-subarray-sum-after-one-operation<<error --- -- ->>maximum-subarray-sum-after-one-operation<<error --- -- ->>maximum-subarray-sum-after-one-operation<<
+ 11%|█▏        | 226/1987 [06:38<36:12,  1.23s/it]error --- -- ->>find-total-time-spent-by-each-employee<<error --- -- ->>find-total-time-spent-by-each-employee<<error --- -- ->>find-total-time-spent-by-each-employee<<
+ 12%|█▏        | 232/1987 [06:47<47:13,  1.61s/it]error --- -- ->>the-number-of-employees-which-report-to-each-employee<<error --- -- ->>the-number-of-employees-which-report-to-each-employee<<error --- -- ->>the-number-of-employees-which-report-to-each-employee<<
+ 15%|█▌        | 306/1987 [09:16<1:05:09,  2.33s/it]error --- -- ->>hopper-company-queries-iii<<error --- -- ->>hopper-company-queries-iii<<error --- -- ->>hopper-company-queries-iii<<
+ 15%|█▌        | 307/1987 [09:16<48:28,  1.73s/it]  error --- -- ->>minimize-deviation-in-array<<error --- -- ->>minimize-deviation-in-array<<error --- -- ->>minimize-deviation-in-array<<
+ 16%|█▌        | 316/1987 [09:33<53:47,  1.93s/it]error --- -- ->>hopper-company-queries-ii<<error --- -- ->>hopper-company-queries-ii<<error --- -- ->>hopper-company-queries-ii<<
+ 16%|█▋        | 325/1987 [09:48<50:13,  1.81s/it]error --- -- ->>minimum-operations-to-reduce-x-to-zero<<error --- -- ->>minimum-operations-to-reduce-x-to-zero<<error --- -- ->>minimum-operations-to-reduce-x-to-zero<<
+ 17%|█▋        | 329/1987 [09:55<48:59,  1.77s/it]error --- -- ->>create-sorted-array-through-instructions<<error --- -- ->>create-sorted-array-through-instructions<<error --- -- ->>create-sorted-array-through-instructions<<
+ 20%|█▉        | 390/1987 [11:48<52:05,  1.96s/it]error --- -- ->>find-servers-that-handled-most-number-of-requests<<error --- -- ->>find-servers-that-handled-most-number-of-requests<<error --- -- ->>find-servers-that-handled-most-number-of-requests<<
+ 20%|█▉        | 391/1987 [11:49<38:38,  1.45s/it]error --- -- ->>alert-using-same-key-card-three-or-more-times-in-a-one-hour-period<<error --- -- ->>alert-using-same-key-card-three-or-more-times-in-a-one-hour-period<<error --- -- ->>alert-using-same-key-card-three-or-more-times-in-a-one-hour-period<<
+ 24%|██▍       | 477/1987 [14:52<53:21,  2.12s/it]error --- -- ->>max-value-of-equation<<error --- -- ->>max-value-of-equation<<error --- -- ->>max-value-of-equation<<
+ 24%|██▍       | 478/1987 [14:53<42:49,  1.70s/it]error --- -- ->>number-of-subsequences-that-satisfy-the-given-sum-condition<<error --- -- ->>number-of-subsequences-that-satisfy-the-given-sum-condition<<error --- -- ->>number-of-subsequences-that-satisfy-the-given-sum-condition<<
+ 26%|██▌       | 515/1987 [16:18<50:49,  2.07s/it]error --- -- ->>maximum-number-of-vowels-in-a-substring-of-given-length<<error --- -- ->>maximum-number-of-vowels-in-a-substring-of-given-length<<error --- -- ->>maximum-number-of-vowels-in-a-substring-of-given-length<<
+ 27%|██▋       | 533/1987 [16:54<49:38,  2.05s/it]error --- -- ->>longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit<<error --- -- ->>longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit<<error --- -- ->>longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit<<
+ 27%|██▋       | 543/1987 [17:12<46:34,  1.94s/it]error --- -- ->>maximum-points-you-can-obtain-from-cards<<error --- -- ->>maximum-points-you-can-obtain-from-cards<<error --- -- ->>maximum-points-you-can-obtain-from-cards<<
+ 37%|███▋      | 726/1987 [23:04<43:12,  2.06s/it]error --- -- ->>get-equal-substrings-within-budget<<error --- -- ->>get-equal-substrings-within-budget<<error --- -- ->>get-equal-substrings-within-budget<<
+ 38%|███▊      | 756/1987 [24:04<39:41,  1.93s/it]error --- -- ->>diet-plan-performance<<error --- -- ->>diet-plan-performance<<error --- -- ->>diet-plan-performance<<
+ 41%|████      | 810/1987 [25:57<41:31,  2.12s/it]error --- -- ->>remove-covered-intervals<<error --- -- ->>remove-covered-intervals<<error --- -- ->>remove-covered-intervals<<
+ 42%|████▏     | 832/1987 [26:43<40:57,  2.13s/it]error --- -- ->>remove-interval<<error --- -- ->>remove-interval<<error --- -- ->>remove-interval<<
+ 44%|████▎     | 867/1987 [27:58<39:32,  2.12s/it]error --- -- ->>meeting-scheduler<<error --- -- ->>meeting-scheduler<<error --- -- ->>meeting-scheduler<<
+ 45%|████▍     | 886/1987 [28:37<39:36,  2.16s/it]error --- -- ->>number-of-submatrices-that-sum-to-target<<error --- -- ->>number-of-submatrices-that-sum-to-target<<error --- -- ->>number-of-submatrices-that-sum-to-target<<
+ 45%|████▍     | 893/1987 [28:51<38:09,  2.09s/it]error --- -- ->>grumpy-bookstore-owner<<error --- -- ->>grumpy-bookstore-owner<<error --- -- ->>grumpy-bookstore-owner<<
+ 46%|████▌     | 918/1987 [29:41<35:36,  2.00s/it]error --- -- ->>moving-stones-until-consecutive-ii<<error --- -- ->>moving-stones-until-consecutive-ii<<error --- -- ->>moving-stones-until-consecutive-ii<<
+ 46%|████▋     | 922/1987 [29:47<31:34,  1.78s/it]error --- -- ->>minimum-swaps-to-group-all-1s-together<<error --- -- ->>minimum-swaps-to-group-all-1s-together<<error --- -- ->>minimum-swaps-to-group-all-1s-together<<
+ 48%|████▊     | 945/1987 [30:30<33:33,  1.93s/it]error --- -- ->>find-k-length-substrings-with-no-repeated-characters<<error --- -- ->>find-k-length-substrings-with-no-repeated-characters<<error --- -- ->>find-k-length-substrings-with-no-repeated-characters<<
+ 49%|████▉     | 983/1987 [31:46<32:55,  1.97s/it]error --- -- ->>max-consecutive-ones-iii<<error --- -- ->>max-consecutive-ones-iii<<error --- -- ->>max-consecutive-ones-iii<<
+ 50%|████▉     | 992/1987 [32:02<32:43,  1.97s/it]error --- -- ->>minimum-number-of-k-consecutive-bit-flips<<error --- -- ->>minimum-number-of-k-consecutive-bit-flips<<error --- -- ->>minimum-number-of-k-consecutive-bit-flips<<
+ 50%|█████     | 995/1987 [32:07<28:53,  1.75s/it]error --- -- ->>subarrays-with-k-different-integers<<error --- -- ->>subarrays-with-k-different-integers<<error --- -- ->>subarrays-with-k-different-integers<<
+ 51%|█████     | 1009/1987 [32:35<38:41,  2.37s/it]error --- -- ->>longest-turbulent-subarray<<error --- -- ->>longest-turbulent-subarray<<error --- -- ->>longest-turbulent-subarray<<
+ 51%|█████     | 1012/1987 [32:40<30:42,  1.89s/it]error --- -- ->>odd-even-jump<<error --- -- ->>odd-even-jump<<error --- -- ->>odd-even-jump<<
+ 56%|█████▌    | 1109/1987 [36:18<31:22,  2.14s/it]error --- -- ->>generate-random-point-in-a-circle<<error --- -- ->>generate-random-point-in-a-circle<<error --- -- ->>generate-random-point-in-a-circle<<
+ 56%|█████▌    | 1110/1987 [36:19<24:47,  1.70s/it]error --- -- ->>random-point-in-non-overlapping-rectangles<<error --- -- ->>random-point-in-non-overlapping-rectangles<<error --- -- ->>random-point-in-non-overlapping-rectangles<<
+ 56%|█████▌    | 1111/1987 [36:19<20:24,  1.40s/it]error --- -- ->>random-flip-matrix<<error --- -- ->>random-flip-matrix<<error --- -- ->>random-flip-matrix<<
+ 56%|█████▌    | 1112/1987 [36:20<16:54,  1.16s/it]error --- -- ->>random-pick-with-weight<<error --- -- ->>random-pick-with-weight<<error --- -- ->>random-pick-with-weight<<
+ 56%|█████▋    | 1121/1987 [36:38<31:19,  2.17s/it]error --- -- ->>implement-rand10-using-rand7<<error --- -- ->>implement-rand10-using-rand7<<error --- -- ->>implement-rand10-using-rand7<<
+ 57%|█████▋    | 1130/1987 [36:57<30:47,  2.16s/it]error --- -- ->>random-pick-with-blacklist<<error --- -- ->>random-pick-with-blacklist<<error --- -- ->>random-pick-with-blacklist<<
+ 57%|█████▋    | 1139/1987 [37:15<30:10,  2.14s/it]error --- -- ->>exam-room<<error --- -- ->>exam-room<<error --- -- ->>exam-room<<
+ 58%|█████▊    | 1144/1987 [37:25<28:51,  2.05s/it]error --- -- ->>rectangle-area-ii<<error --- -- ->>rectangle-area-ii<<error --- -- ->>rectangle-area-ii<<
+ 58%|█████▊    | 1148/1987 [37:32<28:02,  2.01s/it]error --- -- ->>hand-of-straights<<error --- -- ->>hand-of-straights<<error --- -- ->>hand-of-straights<<
+ 65%|██████▍   | 1285/1987 [42:11<23:43,  2.03s/it]error --- -- ->>my-calendar-iii<<error --- -- ->>my-calendar-iii<<error --- -- ->>my-calendar-iii<<
+ 65%|██████▍   | 1286/1987 [42:12<18:43,  1.60s/it]error --- -- ->>my-calendar-ii<<error --- -- ->>my-calendar-ii<<error --- -- ->>my-calendar-ii<<
+ 65%|██████▍   | 1290/1987 [42:18<20:43,  1.78s/it]error --- -- ->>minimum-window-subsequence<<error --- -- ->>minimum-window-subsequence<<error --- -- ->>minimum-window-subsequence<<
+ 66%|██████▌   | 1302/1987 [42:42<24:11,  2.12s/it]error --- -- ->>range-module<<error --- -- ->>range-module<<error --- -- ->>range-module<<
+ 66%|██████▌   | 1307/1987 [42:50<22:01,  1.94s/it]error --- -- ->>falling-squares<<error --- -- ->>falling-squares<<error --- -- ->>falling-squares<<
+ 67%|██████▋   | 1323/1987 [43:25<24:12,  2.19s/it]error --- -- ->>k-empty-slots<<error --- -- ->>k-empty-slots<<error --- -- ->>k-empty-slots<<
+ 72%|███████▏  | 1435/1987 [47:40<21:45,  2.37s/it]error --- -- ->>permutation-in-string<<error --- -- ->>permutation-in-string<<error --- -- ->>permutation-in-string<<
+ 76%|███████▌  | 1515/1987 [50:34<16:46,  2.13s/it]error --- -- ->>sliding-window-median<<error --- -- ->>sliding-window-median<<error --- -- ->>sliding-window-median<<
+ 79%|███████▊  | 1563/1987 [52:20<15:28,  2.19s/it]error --- -- ->>longest-repeating-character-replacement<<error --- -- ->>longest-repeating-character-replacement<<error --- -- ->>longest-repeating-character-replacement<<
+ 80%|████████  | 1592/1987 [53:25<15:07,  2.30s/it]error --- -- ->>longest-substring-with-at-least-k-repeating-characters<<error --- -- ->>longest-substring-with-at-least-k-repeating-characters<<error --- -- ->>longest-substring-with-at-least-k-repeating-characters<<
+ 80%|████████  | 1596/1987 [53:32<13:28,  2.07s/it]error --- -- ->>perfect-rectangle<<error --- -- ->>perfect-rectangle<<error --- -- ->>perfect-rectangle<<
+ 82%|████████▏ | 1635/1987 [54:58<12:41,  2.16s/it]error --- -- ->>data-stream-as-disjoint-intervals<<error --- -- ->>data-stream-as-disjoint-intervals<<error --- -- ->>data-stream-as-disjoint-intervals<<
+ 83%|████████▎ | 1647/1987 [55:22<12:19,  2.17s/it]error --- -- ->>longest-substring-with-at-most-k-distinct-characters<<error --- -- ->>longest-substring-with-at-most-k-distinct-characters<<error --- -- ->>longest-substring-with-at-most-k-distinct-characters<<
+ 88%|████████▊ | 1748/1987 [59:09<09:09,  2.30s/it]error --- -- ->>sliding-window-maximum<<error --- -- ->>sliding-window-maximum<<error --- -- ->>sliding-window-maximum<<
+ 89%|████████▉ | 1767/1987 [59:51<08:22,  2.28s/it]error --- -- ->>contains-duplicate-iii<<error --- -- ->>contains-duplicate-iii<<error --- -- ->>contains-duplicate-iii<<
+ 89%|████████▉ | 1769/1987 [59:54<07:04,  1.95s/it]error --- -- ->>the-skyline-problem<<error --- -- ->>the-skyline-problem<<error --- -- ->>the-skyline-problem<<
+ 92%|█████████▏| 1828/1987 [1:02:11<06:18,  2.38s/it]error --- -- ->>longest-substring-with-at-most-two-distinct-characters<<error --- -- ->>longest-substring-with-at-most-two-distinct-characters<<error --- -- ->>longest-substring-with-at-most-two-distinct-characters<<
+ 96%|█████████▌| 1911/1987 [1:05:21<02:46,  2.20s/it]error --- -- ->>minimum-window-substring<<error --- -- ->>minimum-window-substring<<error --- -- ->>minimum-window-substring<<
+100%|█████████▉| 1984/1987 [1:08:05<00:06,  2.21s/it]error --- -- ->>longest-substring-without-repeating-characters<<error --- -- ->>longest-substring-without-repeating-characters<<error --- -- ->>longest-substring-without-repeating-characters<<
+100%|██████████| 1987/1987 [1:08:10<00:00,  2.06s/it]
+
+Process finished with exit code 0
