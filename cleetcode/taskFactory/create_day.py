@@ -187,11 +187,33 @@ class HandleAddPlan:
         self.ap = AllProb() if ap is None else ap
         pass
 
+    def nums_remain(self):
+        path = cfg.PATH_ctasks
+
+        nums_hard_all = len(self.ap.get_all_hard())
+        nums_medium_all = len(self.ap.get_all_medium())
+        nums_easy_all = len(self.ap.get_all_easy())
+
+        hard = self.ap.get_all_hard(reverse=True, exclude_path=path)
+        medium = self.ap.get_all_medium(reverse=True, exclude_path=path)
+        easy = self.ap.get_all_easy(reverse=True, exclude_path=path)
+        nums_hard = len(hard)
+        nums_medium = len(medium)
+        nums_easy = len(easy)
+
+        return dict(
+            all=(nums_hard+nums_medium+nums_easy, nums_hard_all+nums_medium_all+nums_easy_all),
+            hard=(nums_hard, nums_hard_all),
+            medium=(nums_medium, nums_medium_all),
+            easy=(nums_easy, nums_easy_all)
+        )
+
     def add_plan_task_now(self, timedelta=0, nh=1, nm=2, ne=3):
 
         dt = datetime.datetime.now() + datetime.timedelta(timedelta)
+        ymd_week = f"week_{dt.isocalendar()[1]:02}"
         ymd_day = f"day_{dt.year:02}{dt.month:02}{dt.day:02}{dt.hour:02}"
-        path_dir = os.path.join(cfg.PATH_ctasks, ymd_day)
+        path_dir = os.path.join(cfg.PATH_ctasks, ymd_week, ymd_day)
         os.makedirs(path_dir)
         with open(os.path.join(path_dir, "__init__.py"), "w") as f:
             pass
@@ -210,6 +232,7 @@ class HandleAddPlan:
                 OneClPy.one_cl_py(one).dump(path_py)
 
             break
+
 
 
 if __name__ == '__main__':

@@ -30,7 +30,7 @@ from cleetcode.taskFactory.utils import OneProblem, login, get_all
 
 def get_had_modules(path=None):
     path = os.path.join(cfg.PATH_PROJECT, "cleetcode/ctasks") if path is None else path
-    path_module_list = glob.glob(os.path.join(path, "day*/cL*.py"))
+    path_module_list = glob.glob(os.path.join(path, "**", "cL*.py"), recursive=True)
     had_modules = dict((re.findall(rf"(cL.*?).py", i)[-1], load_module(i)) for i in path_module_list)
     return had_modules
 
