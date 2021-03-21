@@ -14,6 +14,7 @@ class LeetCode:
         self.PATH_PROJECT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
         self.LOGINmsg = LoginMsg()
         self.PATH_ctasks = os.path.join(self.PATH_PROJECT, "cleetcode/ctasks")
+        self.PATH_arxiv_daily_summary = os.path.join(self.PATH_PROJECT, "daily_arxiv")
 
 
 cfg = LeetCode()
