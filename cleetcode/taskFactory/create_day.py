@@ -233,9 +233,27 @@ class HandleAddPlan:
 
             break
 
+    def add_problem(self, path_save, frontend_question_id=None):
+
+        problem_all = self.ap.get_all_hard()+self.ap.get_all_medium()+self.ap.get_all_easy()
+        from typing import cast
+        if frontend_question_id:
+            for one in problem_all:
+                # print(dir(one))
+                if one.frontend_question_id == frontend_question_id:
+                    OneClPy.one_cl_py(one).dump(path_save)
+
+
+
+
 
 
 if __name__ == '__main__':
+    ap = AllProb()
+    c = HandleAddPlan(ap)
+    c.add_problem("a.py", "24")
+
+if __name__ == '__main__123':
     ap = AllProb()
     c = HandleAddPlan(ap)
     c.add_plan_task_now(timedelta=1)
