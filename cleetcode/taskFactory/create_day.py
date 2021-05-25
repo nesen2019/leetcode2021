@@ -244,6 +244,14 @@ class HandleAddPlan:
                     OneClPy.one_cl_py(one).dump(path_save)
 
 
+    def add_problem01(self, frontend_question_id=None):
+
+        problem_all = self.ap.get_all_hard()+self.ap.get_all_medium()+self.ap.get_all_easy()
+        if frontend_question_id:
+            for one in problem_all:
+                # print(dir(one))
+                if one.frontend_question_id == frontend_question_id:
+                    OneClPy.one_cl_py(one).dump(f"L{one.question_id:04}.py")
 
 
 
